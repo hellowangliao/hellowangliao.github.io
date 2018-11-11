@@ -26,6 +26,8 @@
 					下载一篇数学文章看看
 				</a>
 			</p>
+		<div style="width: 500px; margin: 20px auto; padding: 30px;
+background-color: #fafafa;">
                          <h2>一段数学证明</h2>
 
 			<p><span style="font-style: normal; font-size: 1.5; font-weight: bold;
@@ -38,6 +40,7 @@ color: #0000ff;">Proof: </span>
 				We only need to prove that the union of subspaces is a subspace then one must contain the others. We proceed by induction. Let $\mathscr{C}=\{U_1,U_2,\cdots ,U_n \}$. The case when $n=1$ is trivial. Suppose the theorem holds for $n=m$, where $m$ not exceeds $|F|$ when $F$ is finite, or $F$ is infinite, we only need to consider the case when each $U_i$, where $i=1,2,\cdots ,m+1$, has at least one elements not in other subspaces. Without loss of generality, let $x\in U_1$ where $x\notin U_i$ for $i\neq 1$ and $y\in U_2$ where $y\notin U_i$ for $i\neq 2$. Consider the set $$H=\{\alpha x+y|\alpha\in F\}$$ The cardinality of $H$ is equal to $F$, and $H$ is a subset of the union of the elements in $\mathscr{C}$ except $U_1$. By the pigeonhole principle, if $m+1$ not exceed $|F|$ when $F$ is finite, or $F$ is infinite, then there exist two different $\alpha_1 x+y$ and $\alpha_2 x+y$ in one subspace $U_i$ other than $U_1$, thus we have $(\alpha_1-\alpha_2)x\in U_i$, which means $x\in U_i$,but $x\notin U_i$, a contradiction. Therefore, there exists one subspace $U_j$ that is in the union $U_1\cup U_2\cup \cdots \cup U_{j-1}\cup U_{j+1}\cup \cdots \cup U_{m+1}$. But then the union of the elements in $\mathscr{C}\setminus\{U_j\}$ is a subspace of $V$, by induction hypothesis, the theorem holds for $n=m+1$.
 ▮
 			</p>
+			</div>
 				<p><span style="font-style: normal; font-size: 10px; font-weight: bold;
 color: #0101ff;">Powered by GitHub</span></p>
 
